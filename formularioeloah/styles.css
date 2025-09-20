@@ -1,0 +1,126 @@
+/* Estilo geral */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f3f9; /* fundo claro com tom fashion */
+    margin: 20px;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #ff99cc;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #cc0066;
+  }
+  h1 {
+    color: #660033;
+  }
+  h2, h3 {
+    color: #cc0066;
+  }
+  
+  /* Navegação */
+  nav a {
+    color: #fff;
+    background: #cc0066;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background: #ff6699;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #ff99cc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 3px solid #cc0066;
+    color: #660033;
+    font-size: 14px;
+  }
+  
+  /* Links */
+  a {
+    color: #cc0066;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tabelas */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #333;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #cc0066;
+  }
+  th {
+    background-color: #ffccdd;
+  }
+  
+  /* Galeria */
+  figure {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+  }
+  figure img {
+    border: 3px solid #cc0066;
+    border-radius: 8px;
+  }
+  
+  /* Formulário */
+  form {
+    width: 60%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #cc0066;
+    border-radius: 8px;
+  }
+  label {
+    font-weight: bold;
+    color: #660033;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  input[type="submit"] {
+    background-color: #cc0066;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #99004d;
+  }
+  
+  /* Mensagem de confirmação */
+  .confirmacao {
+    text-align: center;
+    margin-top: 50px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #cc0066;
+  }
+  
